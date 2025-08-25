@@ -6,7 +6,7 @@ document.getElementById("loginBTN").addEventListener("click",function(e){
     const num = parseInt(document.getElementById("NumBER").value);
     const password = parseInt( document.getElementById("PasswORD").value);
     if(numb === num && password === pass){
-        window.location.href="index.html";
+        window.location.href="./index.html";
     }
     else if(num !== numb && password !== pass){
         alert("please valid Number & Password..!")
